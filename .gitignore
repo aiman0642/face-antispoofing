@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# dataset & generated data
+data/raw/
+data/frames/
+data/real_world_test/
+
+# trained models
+models_saved/*.h5
+models_saved/*.pt
+
+# outputs
+outputs/logs/
+outputs/metrics/
+outputs/demo_screenshots/
